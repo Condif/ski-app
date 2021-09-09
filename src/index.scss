@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .btn-blue {
+    @apply w-24 bg-blue-500 md:hover:bg-blue-700 text-white font-bold shadow-md;
+  }
+  .input-base {
+    @apply py-2 px-3 rounded-lg w-full
+    border focus:outline-none focus:ring-2 
+    focus:ring-blue-600 focus:border-transparent inline-block shadow-md;
+  }
+  .dropdown-content-base {
+    @apply z-10 absolute w-full mt-3 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 divide-y divide-gray-100 focus:outline-none
+  }
+}
