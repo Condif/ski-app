@@ -28,7 +28,7 @@ const SkiLengthFormContainer = () => {
       }cm`;
     if (skiStyle.name === "Klassisk")
       return `${height + 20 >= 207 ? 207 : height + 20}cm`;
-    return `${height + 10 >= 207 ? 207 - 10 : height + 10} -  ${
+    return `${height + 10 >= 207 ? 207 - 5 : height + 10} -  ${
       height + 10 >= 207 ? 207 : height + 15
     }cm`;
   };

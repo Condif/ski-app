@@ -52,7 +52,7 @@ const SkiLengthForm = ({
         ></BaseDropdown>
        
       </div>
-      <span className="mb-2 block md:text-6xl text-4xl text-center bold text-blue-400">{skiLengthRange}</span>
+      <span className="mb-6 block md:text-6xl text-4xl text-center bold text-blue-400">{skiLengthRange}</span>
       {/* label + dropdown */}
       {/* label + box med nummer och cm */}
       {/* sparaknapp */}
