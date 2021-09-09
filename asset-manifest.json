@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/ski-app/static/css/main.519fbcee.chunk.css",
-    "main.js": "/ski-app/static/js/main.40c51225.chunk.js",
-    "main.js.map": "/ski-app/static/js/main.40c51225.chunk.js.map",
+    "main.css": "/ski-app/static/css/main.dca2cb3a.chunk.css",
+    "main.js": "/ski-app/static/js/main.c3b53ec6.chunk.js",
+    "main.js.map": "/ski-app/static/js/main.c3b53ec6.chunk.js.map",
     "runtime-main.js": "/ski-app/static/js/runtime-main.fa1133b4.js",
     "runtime-main.js.map": "/ski-app/static/js/runtime-main.fa1133b4.js.map",
     "static/js/2.02d8e55d.chunk.js": "/ski-app/static/js/2.02d8e55d.chunk.js",
@@ -10,13 +10,13 @@
     "static/js/3.c068b092.chunk.js": "/ski-app/static/js/3.c068b092.chunk.js",
     "static/js/3.c068b092.chunk.js.map": "/ski-app/static/js/3.c068b092.chunk.js.map",
     "index.html": "/ski-app/index.html",
-    "static/css/main.519fbcee.chunk.css.map": "/ski-app/static/css/main.519fbcee.chunk.css.map",
+    "static/css/main.dca2cb3a.chunk.css.map": "/ski-app/static/css/main.dca2cb3a.chunk.css.map",
     "static/js/2.02d8e55d.chunk.js.LICENSE.txt": "/ski-app/static/js/2.02d8e55d.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.fa1133b4.js",
     "static/js/2.02d8e55d.chunk.js",
-    "static/css/main.519fbcee.chunk.css",
-    "static/js/main.40c51225.chunk.js"
+    "static/css/main.dca2cb3a.chunk.css",
+    "static/js/main.c3b53ec6.chunk.js"
   ]
 }
