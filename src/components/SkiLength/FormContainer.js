@@ -10,25 +10,33 @@ const SkiLengthFormContainer = () => {
   const [height, setHeight] = useInput("");
   const [age, setAge] = useInput("");
   const [skiStyle, setSkiStyle] = useDropdown({ name: "Klassisk" });
-  const [skiLength, setSkiLength] = useState(null);
+  const [skiLengthRange, setSkiLengthRange] = useState(null);
 
   // Functions
   const handleSubmit = (e) => {
     e.preventDefault();
   };
 
-  const calculateSkiLength = (height, age, skiStyle) => {
+  const calcSkiLengthRange = (height, age, skiStyle) => {
+    if (!height || !age) return;
     height = Number(height);
     age = Number(age);
-    if (age < 5) return height;
-    if (age < 9) return height + 20;
-    return skiStyle.name === "Klassisk" ? height + 20 : height + 15;
+    if (age < 5) return height + "cm";
+    if (age < 9)
+      return `${height + 10 >= 207 ? 207 : height + 10} -  ${
+        height + 20 >= 207 ? 207 : height + 20
+      }cm`;
+    if (skiStyle.name === "Klassisk")
+      return `${height + 20 >= 207 ? 207 : height + 20}cm`;
+    return `${height + 10 >= 207 ? 207 - 10 : height + 10} -  ${
+      height + 10 >= 207 ? 207 : height + 15
+    }cm`;
   };
 
   // UseEffects
   useEffect(() => {
     if (!height || !age) return;
-    setSkiLength(calculateSkiLength(height, age, skiStyle));
+    setSkiLengthRange(calcSkiLengthRange(height, age, skiStyle));
   }, [height, age, skiStyle]);
 
   return (
@@ -40,7 +48,7 @@ const SkiLengthFormContainer = () => {
       skiStyleList={skiStyleList}
       skiStyle={skiStyle}
       setSkiStyle={setSkiStyle}
-      skiLength={skiLength}
+      skiLengthRange={skiLengthRange}
       handleSubmit={handleSubmit}
     ></SkiLengthForm>
   );

@@ -9,7 +9,7 @@ const SkiLengthForm = ({
   skiStyleList,
   skiStyle,
   setSkiStyle,
-  skiLength,
+  skiLengthRange,
   handleSubmit
 }) => {
   return (
@@ -21,7 +21,7 @@ const SkiLengthForm = ({
         {/* label + inputfällt */}
         <input
           className="input-base min-w-full md:min-w-0"
-          placeholder="Ange längd"
+          placeholder="Ange personens längd"
           type="number"
           min="30"
           max="300"
@@ -31,7 +31,7 @@ const SkiLengthForm = ({
         {/* label + inputfällt */}
         <input
           className="input-base min-w-full md:min-w-0"
-          placeholder="Ange ålder"
+          placeholder="Ange personens ålder"
           type="number"
           max="150"
           value={age}
@@ -52,7 +52,7 @@ const SkiLengthForm = ({
         ></BaseDropdown>
        
       </div>
-      <span className="mb-2 block text-6xl text-center bold text-blue-400">{skiLength}</span>
+      <span className="mb-2 block md:text-6xl text-4xl text-center bold text-blue-400">{skiLengthRange}</span>
       {/* label + dropdown */}
       {/* label + box med nummer och cm */}
       {/* sparaknapp */}
