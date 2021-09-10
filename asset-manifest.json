@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/ski-app/static/css/main.baa373b5.chunk.css",
-    "main.js": "/ski-app/static/js/main.5a8c5a40.chunk.js",
-    "main.js.map": "/ski-app/static/js/main.5a8c5a40.chunk.js.map",
-    "runtime-main.js": "/ski-app/static/js/runtime-main.fa1133b4.js",
-    "runtime-main.js.map": "/ski-app/static/js/runtime-main.fa1133b4.js.map",
-    "static/js/2.02d8e55d.chunk.js": "/ski-app/static/js/2.02d8e55d.chunk.js",
-    "static/js/2.02d8e55d.chunk.js.map": "/ski-app/static/js/2.02d8e55d.chunk.js.map",
-    "static/js/3.c068b092.chunk.js": "/ski-app/static/js/3.c068b092.chunk.js",
-    "static/js/3.c068b092.chunk.js.map": "/ski-app/static/js/3.c068b092.chunk.js.map",
+    "main.js": "/ski-app/static/js/main.afa80f63.chunk.js",
+    "main.js.map": "/ski-app/static/js/main.afa80f63.chunk.js.map",
+    "runtime-main.js": "/ski-app/static/js/runtime-main.273f11d3.js",
+    "runtime-main.js.map": "/ski-app/static/js/runtime-main.273f11d3.js.map",
+    "static/js/2.d4d6a981.chunk.js": "/ski-app/static/js/2.d4d6a981.chunk.js",
+    "static/js/2.d4d6a981.chunk.js.map": "/ski-app/static/js/2.d4d6a981.chunk.js.map",
+    "static/js/3.de30b388.chunk.js": "/ski-app/static/js/3.de30b388.chunk.js",
+    "static/js/3.de30b388.chunk.js.map": "/ski-app/static/js/3.de30b388.chunk.js.map",
     "index.html": "/ski-app/index.html",
     "static/css/main.baa373b5.chunk.css.map": "/ski-app/static/css/main.baa373b5.chunk.css.map",
-    "static/js/2.02d8e55d.chunk.js.LICENSE.txt": "/ski-app/static/js/2.02d8e55d.chunk.js.LICENSE.txt"
+    "static/js/2.d4d6a981.chunk.js.LICENSE.txt": "/ski-app/static/js/2.d4d6a981.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.fa1133b4.js",
-    "static/js/2.02d8e55d.chunk.js",
+    "static/js/runtime-main.273f11d3.js",
+    "static/js/2.d4d6a981.chunk.js",
     "static/css/main.baa373b5.chunk.css",
-    "static/js/main.5a8c5a40.chunk.js"
+    "static/js/main.afa80f63.chunk.js"
   ]
 }
