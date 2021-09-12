@@ -25,14 +25,14 @@ const SkiLengthFormContainer = () => {
   // Functions
   const handleSubmit = (e) => {
     e.preventDefault();
-    postSkiLengthProfile(name, height, skiLengthRange, skiStyle);
+    postSkiLengthProfile(name, height, age, skiLengthRange, skiStyle);
     setHeight("");
     setAge("");
     setName("");
     setSkiStyle({ name: "Klassisk" });
   };
 
-  const postSkiLengthProfile = (name, height, skiLengthRange, skiStyle) => {
+  const postSkiLengthProfile = (name, height, age, skiLengthRange, skiStyle) => {
     const data = {
       name: name || "Anonym",
       height: Number(height),
