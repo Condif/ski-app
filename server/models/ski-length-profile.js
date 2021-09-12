@@ -3,6 +3,7 @@ const mongoose = require('mongoose')
 const skiLengthProfileSchema = new mongoose.Schema({
     name: {
         type: String,
+        required: true
     },
     height: {
         type: Number,
@@ -18,6 +19,10 @@ const skiLengthProfileSchema = new mongoose.Schema({
         min: { type: String },
         max: { type: String }
       },
+    skiStyle: {
+        type: String,
+        required: true,
+    }
       
 })
 

@@ -1,0 +1,18 @@
+.SkiLengthTable {
+  table {
+    border-collapse: collapse;
+  }
+
+  td, th {
+    border: 2px solid white;
+    text-align: left;
+    padding: 8px;
+  }
+
+  tbody:nth-child(even) {
+    background-color: #e8f0fe7e;
+  }
+  tbody:nth-child(odd) {
+    background-color: #e8f0fe;
+  }
+}

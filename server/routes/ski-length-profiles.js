@@ -18,12 +18,12 @@ router.get('/:id', (req,res) => {
 })
 // Creating One
 router.post('/', async (req,res) => {
-    console.log(req.body, "req.body")
     const skiLengthProfile = new SkiLengthProfile({
         name: req.body.name,
         height: req.body.height,
         age: req.body.age,
-        skiLengthRange: req.body.skiLengthRange
+        skiLengthRange: req.body.skiLengthRange,
+        skiStyle: req.body.skiStyle
     })
     try {
         const newSkiLengthProfile = await skiLengthProfile.save()

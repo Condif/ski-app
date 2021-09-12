@@ -2,7 +2,7 @@ GET http://localhost:3002/ski-length-profiles
 
 ###
 
-GET http://localhost:3002/ski-length-profiles/613b4a4c42dfe26ba405bdee
+GET http://localhost:3002/ski-length-profiles/
 
 ###
 
@@ -16,12 +16,18 @@ Content-Type: application/json
     "skiLengthRange": {
         "min": 175,
         "max": 195
-    }
+    },
+    "skiStyle": "Klassisk"
 }
 
 ###
 
-DELETE http://localhost:3002/ski-length-profiles/613b6d13a23918e1de70ad95
+DELETE http://localhost:3002/ski-length-profiles/613df2b1701f67d1b9a82cd3
+
+
+
+
+
 
 
 

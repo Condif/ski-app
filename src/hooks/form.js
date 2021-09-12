@@ -7,7 +7,7 @@ const useInput = (initialValue) => {
         setValue(e.target.value);
     }
 
-   return [value, handleChange];
+   return [value, setValue, handleChange];
 }
 
 const useDropdown = (initialValue) => {
@@ -17,7 +17,7 @@ const useDropdown = (initialValue) => {
          setValue(item);
      }
  
-    return [value, handleChange];
+    return [value, setValue, handleChange];
  }
  
 

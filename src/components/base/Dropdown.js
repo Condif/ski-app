@@ -26,10 +26,11 @@ const BaseDropdown = ({
     return (
         <div className={className ? `BaseDropdown ${className}`: 'BaseDropdown'} ref={dropdownRef}>
             <button
+                type="button"
                 className={selectedClass}
                 onClick={() => handleIsOpen(!isOpen)}
             >
-                <span>{selected.name}</span>
+                <span>{selected?.name}</span>
                 <Icon
                     path={icon}
                     size={1}
